@@ -4,7 +4,7 @@ from unittest import IsolatedAsyncioTestCase
 import aiohttp
 from async_timeout import timeout
 
-from harness import RestTestHarness, TestUserHarness, WebsocketHarness
+from ..harness import RestTestHarness, TestUserHarness, WebsocketHarness
 from quadradiusr_server.constants import QrwsOpcode
 
 

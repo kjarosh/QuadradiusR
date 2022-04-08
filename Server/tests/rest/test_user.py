@@ -3,7 +3,7 @@ from unittest import IsolatedAsyncioTestCase
 
 import aiohttp
 
-from harness import RestTestHarness, TestUserHarness
+from ..harness import RestTestHarness, TestUserHarness
 from quadradiusr_server.db.base import User
 from quadradiusr_server.db.transactions import transaction_context
 

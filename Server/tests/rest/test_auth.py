@@ -2,7 +2,7 @@ from unittest import IsolatedAsyncioTestCase
 
 import aiohttp
 
-from harness import RestTestHarness, TestUserHarness
+from ..harness import RestTestHarness, TestUserHarness
 
 
 class TestAuth(IsolatedAsyncioTestCase, TestUserHarness, RestTestHarness):

@@ -4,7 +4,7 @@ from unittest import IsolatedAsyncioTestCase
 import aiohttp
 from isodate import parse_datetime
 
-from harness import RestTestHarness, TestUserHarness
+from ..harness import RestTestHarness, TestUserHarness
 from quadradiusr_server.db.base import LobbyMessage
 from quadradiusr_server.db.transactions import transaction_context
 

@@ -4,7 +4,7 @@ import uuid
 from unittest import IsolatedAsyncioTestCase
 from unittest.mock import AsyncMock
 
-from harness import RestTestHarness, TestUserHarness, NotificationHandlerForTests
+from .harness import RestTestHarness, TestUserHarness, NotificationHandlerForTests
 from quadradiusr_server.db.base import GameInvite
 from quadradiusr_server.db.transactions import transaction_context
 from quadradiusr_server.notification import Notification

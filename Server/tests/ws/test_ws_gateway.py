@@ -4,7 +4,7 @@ import aiohttp
 from aiohttp import WSMsgType
 from async_timeout import timeout
 
-from harness import TestUserHarness, RestTestHarness
+from ..harness import TestUserHarness, RestTestHarness
 from quadradiusr_server.constants import QrwsOpcode, QrwsCloseCode
 
 

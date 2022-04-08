@@ -2,7 +2,7 @@ from unittest import IsolatedAsyncioTestCase
 
 import aiohttp
 
-from harness import TestUserHarness, RestTestHarness
+from ..harness import TestUserHarness, RestTestHarness
 
 
 class TestGateway(IsolatedAsyncioTestCase, TestUserHarness, RestTestHarness):
